@@ -1,0 +1,99 @@
+/*--------------------------UTILITIES-------------------------*/
+
+/*Variables*/
+@import"./utilities/variables";
+
+/*Mixins*/
+@import"./utilities/mixins";
+
+/*Maps*/
+@import"./utilities/maps";
+
+
+/*-----------------------BASE---------------------------*/
+
+/*Reset*/
+@import"./base/reset";
+
+
+/*------------------LAYOUT----------------------*/
+
+/*Header*/
+@import"./layout/header";
+
+/*Artículo*/
+@import"./layout/articulo";
+
+/*Títulos de Pages*/
+@import"./layout/titulos";
+
+/*Color Background de todas las Pages*/
+@import"./layout/bgcolor";
+
+/*Main del Index*/
+@import"./layout/indexmain";
+
+/*Contenido Productos*/
+@import"./layout/productosmain";
+
+/*Formulario en Productos*/
+@import"./layout/form";
+
+/*Main de Singles*/
+@import"./layout/singlesmain";
+
+/*Main Discografía*/
+@import"./layout/discografiamain";
+
+/*Main Miembros*/
+@import"./layout/miembrosmain";
+
+/*Main Login*/
+@import"./layout/login";
+
+/*Footer*/
+@import"./layout/footer";
+
+
+/*--------------------COMPONENT------------------*/
+
+/*Bootstrap*/
+
+/*Barra de Navegación*/
+@import"./components/navbar";
+
+/*Cards con Bootstrap en Productos*/
+@import"./components/cards";
+
+
+/*-----------------MEDIA QUERIES-------------------*/
+
+@import "./layout/media/media1620px";
+
+@import"./layout/media/media1375px";
+
+@import"./layout/media/media1170px";
+
+@import"./layout/media/media1050px";
+
+@import"./layout/media/media991px";
+
+@import"./layout/media/media900px";
+
+@import"./layout/media/media870px";
+
+@import"./layout/media/media776px";
+
+@import"./layout/media/media700px";
+
+@import"./layout/media/media577px";
+
+@import"./layout/media/media550px";
+
+@import"./layout/media/media450px";
+
+@import"./layout/media/media370px";
+
+@import"./layout/media/media360px";
+
+@import"./layout/media/media320px";
