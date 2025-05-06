@@ -1,0 +1,21 @@
+/*Titulo*/
+
+@media (max-width: 550px){
+    .titulos{
+        display: none;
+    }
+}
+
+
+/*Discografía*/
+
+@media (max-width: 550px){
+    .lista{
+        h2{
+            font-size: 2.1875rem;
+        }
+    }
+    .foto-discos{
+        width: 21.875rem;
+    }
+}

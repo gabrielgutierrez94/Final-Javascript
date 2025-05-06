@@ -1,0 +1,106 @@
+/* Header*/
+
+@media (max-width: 700px){
+    header{
+        border-bottom: groove;
+        border-color: $negro;
+    }
+}
+
+
+/*Artículo*/
+
+@media (max-width: 700px){
+    article{
+        display: none;
+    }
+}
+
+
+/*Titulos*/
+
+@media (max-width: 700px){
+    .titulos{
+        font-size: 2.1875rem;
+        height: 2.5rem;
+    }
+}
+
+
+/*Index*/
+
+@media (max-width: 700px){
+    .titulo-contenedor{
+        font-size: 2.8125rem;
+    }
+    .contenedor{
+        a{
+            img{
+                width: 25rem;
+            }
+        }
+    }
+}
+
+
+/*Productos*/
+
+@media (max-width: 700px){
+    .merchandising{
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+    .card{
+        margin: .9375rem;
+    }
+    .tipo-datos{
+        padding-left: 1.25rem;
+    }
+    .datos{
+        padding-left:3.125rem ;
+        padding-right: 1.25rem;
+    }
+}
+
+
+/*Singles*/
+
+@media (max-width: 700px){
+    .titulo-video{
+        h2{
+            font-size: 1.875rem;
+        }
+    }
+    .spotify{
+        h3{
+            font-size: 1.875rem;
+        }
+    }
+}
+
+
+/*Footer*/
+
+@media (max-width: 700px){
+    .logos{
+        padding-top: 1.25rem;
+        a{
+            img{
+                width: 2.8125rem;
+            }
+        }
+    }
+    .logofooter{
+        a{
+            img{
+                width: 7.5rem;
+            }
+        }
+    }
+    .info{
+        a{
+            font-size: 1.25rem;
+        }
+    }
+}

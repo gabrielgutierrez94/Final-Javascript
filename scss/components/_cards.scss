@@ -1,0 +1,39 @@
+.card{
+    border-width: .3125rem;
+    border-color: $negro;
+    border-style:groove;
+    background-color: $gris;
+    transition: all 0.5s;
+    margin: .3125rem;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-body{
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boton-card{
+    text-decoration: none;
+    color: $blanco;
+    background-color: $negro;
+    padding: .3125rem;
+    border-radius: .625rem;
+    border-style: groove;
+    border-color: $negro;
+}
+
+.boton-card:hover{
+    background-color: $amarillo;
+    color: $negro;
+}
+
+.precio{
+    font-size: 1.5625rem;
+}

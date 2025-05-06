@@ -1,0 +1,43 @@
+/*Index*/
+
+@media (max-width: 360px){
+    .titulo-contenedor{
+        font-size: 1.875rem;
+    }
+    .contenedor{
+        a{
+            img{
+                width: 17.5rem;
+            }
+        }
+    }
+}
+
+
+/*Footer*/
+
+@media (max-width: 360px){
+    footer{
+        padding-bottom: 0%;
+    }
+    .logos{
+        a{
+            img{
+                width: 2.5rem;
+            }
+        }
+    }
+    .logofooter{
+        a{
+            img{
+                width: 6.25rem;
+            }
+        }
+    }
+    .info{
+        a{
+            font-size: .625rem;
+            padding-top: 0%;
+        }
+    }
+}

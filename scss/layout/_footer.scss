@@ -1,0 +1,74 @@
+footer{
+    background-color: map-get($map: $ColorFondo, $key: gris);
+    border-top: groove;
+    border-color: $negro;
+    padding-bottom: 3.125rem;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+    a{
+        img{
+            width: 3.75rem;
+        }
+        transition: all 0.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+    a{
+        img{
+            width: 9.375rem;
+        }
+    }
+}
+
+.logofooter img:hover{
+    -webkit-animation: rotate-vert-center 0.5s ;
+	animation: rotate-vert-center 0.5s ;
+}
+
+@-webkit-keyframes rotate-vert-center {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotate-vert-center {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+    }
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+    a{
+        font-size: 1.5625rem;
+        padding: 1.25rem;
+        color: black;
+        font-family: 'Archivo Black', sans-serif;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+/*Productos*/
+
+@media (max-width: 370px){
+    .form{
+        height: 37.5rem;
+    }
+    .tipo-datos{
+        font-size: 1.5625rem;
+    }
+    .datos{
+        font-size: .9375rem;
+        padding-left: 1.25rem;
+    }
+    .botmerch{
+        width: 6.25rem;
+        padding: .3125rem;
+        font-size: .9375rem;
+    }
+}
+
+
+/*DIscografía*/
+
+@media (max-width: 370px){
+    .lista{
+        h2{
+            font-size: 1.875rem;
+        }
+    }
+    .foto-discos{
+        width: 18.75rem;
+    }
+}

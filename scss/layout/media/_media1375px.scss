@@ -1,0 +1,53 @@
+/*Navbar*/
+
+@media (max-width: 1375px){
+    .nav-link{
+        font-size: 1.6875rem;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .form-control{
+        display: none;
+    }
+}
+
+
+/*Index*/
+
+@media (max-width: 1375px){
+    .titulo-contenedor{
+        background-color: #272829;
+        color: #EAC050;
+        text-decoration: none;
+        padding-top: .3125rem;
+    }
+    .contenedor{
+        a{
+            img{
+                border-radius: 20%
+            }
+        }
+    }
+    .contenedor-negro{
+        div{
+            h1{
+                color: $amarillo;
+            }
+        }
+    }
+}
+
+
+/*Discografía*/
+
+@media (max-width: 1375px){
+    .disco-blanco{
+        flex-direction: column;
+        align-items: center;
+    }
+    .spotialbum{
+        padding-top: 1.25rem;
+        width: 100%;
+    }
+}

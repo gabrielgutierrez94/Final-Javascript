@@ -1,0 +1,12 @@
+header{
+    background-color: map-get($map: $ColorFondo, $key: gris);
+    background-image: url(../assets/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.logoheader{
+    width: 37.5rem;
+    margin-left: 5rem;
+}

@@ -1,0 +1,45 @@
+/*Artículo*/
+
+@media (max-width: 1170px){
+    .noticia{
+        font-size: 1.875rem;
+    }
+}
+
+
+/*Index*/
+
+@media (max-width: 1170px){
+    .titulo-contenedor{
+        font-size: 2.8125rem ;
+    }
+    .contenedor{
+        a{
+            img{
+            width: 25rem;
+            }
+        }
+        div{
+            p{
+                font-size: 1.5625rem ;
+            }
+        }
+    }
+}
+
+
+/*Integrantes*/
+
+@media (max-width: 1170px){
+    .foto-miembros{
+        width: 18.75rem;
+    }
+    .bio{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.25rem;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.contenedor{
+    @include flex;
+        a{
+            img{
+                width: 31.25rem;
+                border-style: groove;
+                border-radius: 10%;
+                color: $negro;
+                transition: all 0.5s;
+                &:hover{
+                    transform: scale(1.07);
+                }
+            }
+        }
+        div{
+            padding-left: 1.25rem;
+            p{
+                font-family: 'Archivo Black', sans-serif;
+                color: $negro;
+                text-align: center;
+                font-size: 1.875rem
+            }
+        }
+    }
+    
+    .titulo-contenedor{
+        font-family: 'Black Ops One', cursive;
+        color: $negro;
+        text-align: center;
+        font-size: 3.125rem;
+        text-decoration: underline;
+        transition: font-size 0.5s;
+        -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+        animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+    }
+    
+    @-webkit-keyframes tracking-in-contract-bck {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px);
+                    transform: translateZ(400px);
+            opacity: 0;
+        }
+        40% {
+            opacity: 0.6;
+        }
+        100% {
+            -webkit-transform: translateZ(0);
+                    transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+        @keyframes tracking-in-contract-bck {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px);
+                    transform: translateZ(400px);
+            opacity: 0;
+        }
+        40% {
+            opacity: 0.6;
+        }
+        100% {
+            -webkit-transform: translateZ(0);
+                    transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+    
+    .titulo-contenedor:hover{
+        font-size: 3.75rem
+    }
+    
+    .contenedor-gris{
+        @extend .contenedor;
+        background-color: map-get($map: $ColorFondo, $key: gris);
+    }
+    
+    .contenedor-negro{
+        @extend .contenedor;
+        background-color: map-get($map: $ColorFondo, $key: negro);
+        div{
+            h1{
+                color: $blanco;
+            }
+            p{
+                color: $blanco;
+            }
+        }
+    }

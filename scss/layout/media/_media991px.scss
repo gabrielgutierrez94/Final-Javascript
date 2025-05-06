@@ -1,0 +1,27 @@
+/*Header y Navbar*/
+
+@media (max-width: 991px){
+    .navbar-collapse{
+        background-color: $negro;
+    }
+    .nav-link{
+        color: $blanco;
+        padding-left: 1.25rem;
+        font-size: 1.25rem;
+        &:hover{
+            transform: none;
+            color: $amarillo;
+        }
+    }
+    .container-fluid{
+        flex-direction: row;
+    }
+    .logoheader{
+        width: 37.5rem;
+        margin-left: 5rem;
+    }
+    .d-flex{
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}

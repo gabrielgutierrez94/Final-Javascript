@@ -1,0 +1,25 @@
+.merchandising{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.875rem;
+}
+
+.carrito{
+    background-color: map-get($map: $ColorFondo, $key: gris);
+    margin-top: 1.875rem;
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
+    h2{
+        color: $negro;
+        font-family: 'Black Ops One', cursive;
+        font-size: 2.5rem;
+    }
+    ul{
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 1.25rem;
+    }
+    p{
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 1.875rem;
+    }
+}

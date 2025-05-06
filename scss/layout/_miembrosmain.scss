@@ -1,0 +1,110 @@
+.foto-miembros{
+    border-style: groove;
+    border-color: $negro;
+    width: 25rem;
+    -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+    }
+    100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+    }
+    100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    }
+}
+
+.miembros{
+    @include flex;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    h2{
+        @include typo;
+    }
+    p{
+        @include typo;
+        font-size: 1.5625rem;
+    }
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+    }
+}
+
+.gris{
+    background-color: map-get($map: $ColorFondo, $key: gris);
+}
+
+.negro{
+    background-color: map-get($map: $ColorFondo, $key: negro);
+    div{
+        h2{
+            color: $blanco;
+        }
+        p{
+            color: $blanco;
+        }
+    }
+}
+
+.wiki{
+    background-color: map-get($map: $ColorFondo, $key: amarillo);
+    padding: .5rem;
+    border-radius: .625rem;
+    transition: all 0.5s;
+    a{
+        text-decoration: none;
+        color: $negro;
+        font-family: 'Archivo Black', sans-serif;
+    }
+}
+
+.wiki:hover{
+    transform: scale(1.2);
+}

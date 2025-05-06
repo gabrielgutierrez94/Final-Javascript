@@ -1,0 +1,75 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background-color: map-get($map: $ColorFondo, $key: blanco);
+}
+
+.login-cuadro{
+    display: flex;
+    flex-direction: column;
+    background-color: map-get($map: $ColorFondo, $key: gris);
+    text-align: center;
+    padding: 3.75rem 4.375rem;
+    border-style: groove;
+    border-color: $negro;
+    h1{
+        font-family: 'Archivo Black', sans-serif;
+        color: $negro;
+    }
+    label{
+        margin-bottom: 2.1875rem;
+        input{
+            padding: 0 .3125rem;
+            font-size: 1.125rem;
+        }
+    }
+}
+
+.title{
+    font-family: 'Archivo Black', sans-serif;
+    color: $negro;
+    font-size: 2.1875rem;
+    margin-bottom: 1.25rem;
+}
+
+.fa-solid{
+    font-size: 1.25rem;
+    color: $negro;
+    margin-right: .625rem;
+}
+
+.link{
+    color: $negro;
+    margin-bottom: .9375rem;
+}
+
+.login-button{
+    color: $blanco;
+    border: none;
+    background-color: $negro;
+    padding: .625rem .9375rem;
+    font-size: 1.5625rem;
+    transition: all 0.5s;
+    border-radius: .625rem;
+}
+
+.login-button:hover{
+    transform: scale(1.1);
+}
+
+.boton-login{
+    position: fixed;
+    width: 6.25rem;
+    height: 6.25rem;
+    bottom: 1.875rem;
+    right: 1.875rem;
+    text-align: center;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.boton-login:hover{
+    transform: scale(1.4);
+}

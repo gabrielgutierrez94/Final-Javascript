@@ -1,0 +1,48 @@
+/*Artículo*/
+
+@media (max-width: 870px){
+    .noticia{
+        font-size: 1.5625rem;
+        padding-top: .625rem;
+    }
+}
+
+
+/*Index*/
+
+@media (max-width: 870px){
+    .contenedor{
+        flex-direction: column-reverse;
+        a{
+            img{
+                width: 31.25rem;
+                border-radius: 30%;
+                transition: all 0.5s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        div{
+            p{
+                display: none;
+            }
+        }
+    }
+    .titulo-contenedor{
+        font-size: 3.4375rem;
+        padding-left: .9375rem;
+        padding-right: .9375rem;
+        border-radius: 5%;
+        margin-bottom: 1.25rem;
+    }
+}
+
+
+/*Integrantes*/
+
+@media (max-width: 870px){
+    .miembros{
+        flex-direction: column;
+    }
+}

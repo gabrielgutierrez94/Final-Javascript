@@ -1,0 +1,75 @@
+.disco-blanco{
+    @include flex;
+}
+
+.lista{
+    h2{
+        @include typo;
+        padding-left: .625rem;
+    }
+    ul{
+        color: $negro;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 1.4375rem;
+    }
+}
+
+.disco-gris{
+    @extend .disco-blanco;
+    background-color: map-get($map: $ColorFondo, $key: gris);
+}
+
+.disco-negro{
+    @extend .disco-blanco;
+        background-color: map-get($map: $ColorFondo, $key: negro);
+        div{
+            h2{
+                color: $blanco;
+            }
+            ul{
+                color: $blanco;
+            }
+        }
+    
+}
+
+.foto-discos{
+    width: 31.25rem;
+    border-style:solid;
+    border-color: $negro;
+    -webkit-animation: flip-in-ver-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: flip-in-ver-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes flip-in-ver-left {
+    0% {
+        -webkit-transform: rotateY(80deg);
+                transform: rotateY(80deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+}
+@keyframes flip-in-ver-left {
+    0% {
+        -webkit-transform: rotateY(80deg);
+                transform: rotateY(80deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+        opacity: 1;
+    }
+}
+
+.lista{
+    display: flex;
+}
+
+.spotialbum{
+    width: 40.3125rem;
+}

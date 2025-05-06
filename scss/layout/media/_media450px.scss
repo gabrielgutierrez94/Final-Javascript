@@ -1,0 +1,33 @@
+/* Header*/
+
+@media (max-width: 450px){
+    header{
+        background-image: none;
+    }
+    .logoheader{
+        margin-left: 0%;
+    }
+}
+
+
+/*Index*/
+
+@media (max-width: 450px){
+    .titulo-contenedor{
+        font-size: 2.1875rem;
+    }
+    .contenedor a img{
+        width: 18.75rem;
+    }
+}
+
+
+@media (max-width: 450px){
+    .videos{
+        justify-content: center;
+        iframe{
+            width: 21.875rem;
+            height: 18.75rem;
+        }
+    }
+}

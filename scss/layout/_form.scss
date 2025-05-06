@@ -1,0 +1,22 @@
+.flex-boton{
+    background-color: map-get($map: $ColorFondo, $key: negro);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    margin-top: 0;
+}
+
+.botmerch{
+    width: 9.375rem;
+    background-color: $blanco;
+    padding: .5rem;
+    color: $negro;
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: .625rem;
+    transition: 0.5s;
+}
+
+.botmerch:hover{
+    background-color: map-get($map: $ColorFondo, $key: amarillo);
+}

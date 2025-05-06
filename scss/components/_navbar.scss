@@ -1,0 +1,34 @@
+.nav-link{
+    color: $negro;
+    font-family: 'Black Ops One', cursive;
+    font-size: 1.875rem;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+
+.nav-btn{
+    background-color: $gris;
+    color: $negro;
+    font-family: 'Archivo Black', sans-serif;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+.nav-btn:hover{
+    background-color: $amarillo;
+}
+
+.cart{
+    width: 4.6875rem;
+    padding-left: .625rem;
+    transition: all 0.5s;
+}
+
+.cart:hover{
+    transform: scale(1.2);
+}
